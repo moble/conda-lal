@@ -1,4 +1,4 @@
-# Run this file using `conda build -c moble -c conda-forge .`
+# Run this file using `conda build -c moble .`
 
 package:
   name: lalsuite
@@ -13,14 +13,12 @@ requirements:
     - python
     - numpy
     - h5py
+    - scipy
     - cython
-    - gsl
     - swig
+    - gsl
     - libframe
     - metaio
-
-  run:
-    - scipy
 
 build:
   detect_binary_files_with_prefix: true

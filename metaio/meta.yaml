@@ -1,6 +1,6 @@
 package:
   name: metaio
-  version: 8.4.0_1
+  version: '8.4.0_1'
 
 source:
   git_url: git://versions.ligo.org/metaio.git

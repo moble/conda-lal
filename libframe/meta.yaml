@@ -1,6 +1,6 @@
 package:
   name: libframe
-  version: 8.30
+  version: '8.30'
 
 source:
   fn: libframe-8.30.tar.gz

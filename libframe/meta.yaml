@@ -1,0 +1,14 @@
+package:
+  name: libframe
+  version: 8.30
+
+source:
+  fn: libframe-8.30.tar.gz
+  md5: efd7959d70e488b95395fbcde9bcd057
+  url: http://software.ligo.org/lscsoft/source/libframe-8.30.tar.gz
+
+build:
+  detect_binary_files_with_prefix: true
+
+about:
+  home: 'https://www.lsc-group.phys.uwm.edu/daswg/docs/howto/lscsoft-install.html'

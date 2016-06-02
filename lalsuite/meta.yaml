@@ -1,0 +1,29 @@
+# Run this file using `conda build -c moble -c conda-forge .`
+
+package:
+  name: lalsuite
+  version: 6.37
+
+source:
+  git_url: git://versions.ligo.org/lalsuite.git
+  git_tag: lalsuite-v6.37
+
+requirements:
+  build:
+    - python
+    - numpy
+    - h5py
+    - cython
+    - gsl
+    - swig
+    - libframe
+    - metaio
+
+  run:
+    - scipy
+
+build:
+  detect_binary_files_with_prefix: true
+
+about:
+  home: 'https://www.lsc-group.phys.uwm.edu/daswg/docs/howto/lscsoft-install.html'

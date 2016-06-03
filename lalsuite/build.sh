@@ -7,6 +7,17 @@ export LALSUITE_PREFIX=${PREFIX}
 
 ./configure --prefix=${PREFIX} --enable-swig-python
 
-make
+make -j
 
 make install
+
+source ${LALSUITE_PREFIX}/etc/lalsuiterc
+
+cd ${LALSUITE_SRCDIR}/glue
+rm -rf build
+python setup.py install
+source ${LALSUITE_PREFIX}/etc/glue-user-env.sh
+
+cd ${LALSUITE_SRCDIR}/pylal
+rm -rf build
+python setup.py install

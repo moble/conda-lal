@@ -10,13 +10,17 @@ source:
 
 build:
   detect_binary_files_with_prefix: true
-  script: python setup.py install
+  # script: python setup.py install
 
 requirements:
-  build:
+  run:
     - lalsuite
     - pycbc-glue
     - pycbc-pylal
+    - scipy
+    - matplotlib
+    - numpy
+    - h5py
     - werkzeug
     - flask
     - jinja2
@@ -25,14 +29,10 @@ requirements:
     - markupsafe
     - itsdangerous
     - boto
+    - pillow
     - pyopenssl
     - mako
     - decorator
-    - scipy
-    - matplotlib
-    - numpy
-    - pillow
-    - h5py
     - jinja2
     - mpld3
     # - Flask-SQLAlchemy

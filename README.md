@@ -1,6 +1,6 @@
 ## NOTE: ##
 
-I am no longer developing this project because I never quite got it working; the public instructions were much too complicated and contradictory, with some necessary code versions being private to LVC members.  [Jonah Miller has taken it over,](https://github.com/Yurlungur/conda-lal) however, and reports success.
+I am no longer developing this project because there were (when I was working on it, at least) some necessary code versions that were private to LVC members.  [Jonah Miller has now taken it over,](https://github.com/Yurlungur/conda-lal) however, and reports success.
 
 There is also a [docker image](https://ligo-cbc.github.io/pycbc/latest/html/docker.html) that's supposedly publicly available, and looks like it's maintained reasonably well.
 
